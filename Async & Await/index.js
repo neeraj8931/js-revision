@@ -22,7 +22,7 @@ function toppings_choice (){
   })
 }
 
-async function kitchen(){
+async function kitchenOld(){
 
   console.log("A")
   console.log("B")
@@ -36,11 +36,9 @@ async function kitchen(){
 }
 
 // Trigger the function
-
+kitchenOld();
 kitchen();
-console.log("doing the dishes")
-console.log("cleaning the tables")
-console.log("taking orders")
+
 
 
 
