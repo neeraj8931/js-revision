@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: 'Circular-Loom';
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(234, 151, 151);
+    margin: 0;
+}
+.inner {
+    min-width: 300px;
+    text-align: center;
+}
+.main-heading {
+    font-size: 5rem;
+}
+span.number {
+    font-size: 8rem;
+    color: green;
+}
+
+.increase, .decrease, .reset {
+    font-size: 24px;
+    padding: 10px 20px;
+    padding: 10px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 4px;
+    width: 300px;
+    margin: 10px;;
+}
